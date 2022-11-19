@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.box{
+    border-radius: 2%;
+}
+.img{
+    width: 100vw;
+    height: 50vh;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("https://img.freepik.com/free-photo/freelance-young-businesswoman-casual-wear-using-laptop-working-living-room-home_7861-3051.jpg?w=826&t=st=1668666167~exp=1668666767~hmac=b959e1d01e9bf61cda86b98c8ce59f67d6c49ff28a2aebd89ef46580161f41c1");
+    background-size: cover;
+    background-position: center;
+    margin-top: 4rem;
+    display: grid;
+    place-content: center;
+}
+.singleimg{
+    width: 75vw;
+}
+
+
+@media  (max-width:700px){
+    .card{
+     flex-direction: column;
+     max-height: 350px !important;
+    }
+    .img{
+        margin-top: 3rem;
+    }
+    .image{
+        height: auto;
+    }
+}
